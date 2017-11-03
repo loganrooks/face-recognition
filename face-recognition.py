@@ -14,8 +14,8 @@ def detectFace(grayScaleImage, originalColorImage):
     eyeImageScaleFactor = 1.1
     eyeMinNumOfAcceptedNeighbors = 3
     
-    smileImageScaleFactor = 3
-    smileMinNumOfAcceptedNeighbors = 10
+    smileImageScaleFactor = 1.7
+    smileMinNumOfAcceptedNeighbors = 22
     
     for (xCoordinate, yCoordinate, width, height) in faces:
         upperLeftCorner = (xCoordinate, yCoordinate)
