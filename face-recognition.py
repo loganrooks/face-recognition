@@ -12,7 +12,7 @@ def detectFace(grayScaleImage, originalColorImage):
                                          faceMinNumOfAcceptedNeighbors)
     
     eyeImageScaleFactor = 1.1
-    eyeMinNumOfAcceptedNeighbors = 3
+    eyeMinNumOfAcceptedNeighbors = 15
     
     smileImageScaleFactor = 1.7
     smileMinNumOfAcceptedNeighbors = 22
